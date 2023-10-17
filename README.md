@@ -1,3 +1,11 @@
+# Default-Solid-Shading
+
+Is an option which opens all blender scenes in Solid Shading type. This will prevent possible crashes and also slow opening of scene.
+
+<!-- > Some limitations are currently present due to Beta containing some bugs -->
+
+!['Look UI'](https://raw.githubusercontent.com/wiki/schroef/default-solid-shading/images/default-solid-shading-v001.png?v20231017)
+
 
 ### System Requirements
 
