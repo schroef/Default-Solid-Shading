@@ -4,7 +4,7 @@ bl_info = {
 	"description": "Restores scene shading type to solid upon opening files",
 	"location": "3dView > Shading Type > Solid Shading PopOver",
 	"author": "Rombout Versluijs",
-	"version": (0, 0, 1),
+	"version": (0, 0, 2),
 	"blender": (2, 80, 0),
 	"wiki_url": "https://github.com/schroef/default-solid-shading",
 	"tracker_url": "https://github.com/schroef/default-solid-shading/issues",
@@ -18,7 +18,7 @@ from bpy.app.handlers import persistent
 def load_handler(context, a):
 	""" Set the 3dviewport to solid shading type if not set """
 	
-	prefs = bpy.context.preferences.addons['default-solid-shading'].preferences
+	prefs = bpy.context.preferences.addons['Default-Solid-Shading'].preferences
 	if prefs.default_solid_shading:
 		for i, area in enumerate(bpy.context.screen.areas):
 			if area.type == 'VIEW_3D':
@@ -36,7 +36,7 @@ class DSS_PT_AddonPreferences(bpy.types.AddonPreferences):
 
 def default_solid_shading(self, context):
 	layout = self.layout
-	prefs = bpy.context.preferences.addons['default-solid-shading'].preferences
+	prefs = bpy.context.preferences.addons['Default-Solid-Shading'].preferences
 	col = layout.column()
 	col.prop(prefs, "default_solid_shading")
 

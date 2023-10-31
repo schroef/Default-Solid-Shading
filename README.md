@@ -4,7 +4,7 @@ Is an option which opens all blender scenes in Solid Shading type. This will pre
 
 <!-- > Some limitations are currently present due to Beta containing some bugs -->
 
-!['Look UI'](https://user-images.githubusercontent.com/6923008/275971983-39201a2a-0f91-4a71-b5ee-2ae8824f5641.png?v20231017)
+!['Look UI'](https://raw.githubusercontent.com/wiki/schroef/Default-Solid-Shading/images/Default-Solid-Shading_v002.png?v20231031))
 
 
 ### System Requirements
@@ -12,7 +12,7 @@ Is an option which opens all blender scenes in Solid Shading type. This will pre
 | **OS** | **Blender** |
 | ------------- | ------------- |
 | OSX | Blender 2.80+ |
-| Windows | Not Tested |
+| Windows | Blender 2.80+ |
 | Linux | Not Tested |
 
 
